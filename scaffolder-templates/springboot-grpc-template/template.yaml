@@ -51,6 +51,10 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+            requestUserCredentials:
+              secretsKey: foo
+              additionalScopes:
+                github: ['workflow']
 
   steps:
     - id: template
