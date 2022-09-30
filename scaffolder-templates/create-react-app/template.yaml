@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template
+  name: create-react-app-template-eric
   title: Create React App Template
   description: Create a new CRA website project
   tags:
